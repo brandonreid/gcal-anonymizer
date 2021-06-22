@@ -1,26 +1,27 @@
 {
   "manifest_version": 3,
-  "name": "Google Calendar Anonymizer",
+  "name": "Calendar Anonymizer",
   "description": "Instantly anonymize your google calendar so you can take a screenshot and share your availability with anyone.",
   "author": "Brandon Reid – brandonreid.me",
-  "version": "1.0",
+  "version": "1.1",
   "permissions": [
     "scripting",
-    "tabs"
+    "tabs",
+    "notifications"
   ],
   "background": {
     "service_worker": "background.js"
   },
   "host_permissions": [
-    "https://calendar.google.com/*"
+    "https://calendar.google.com/"
   ],
   "action": {
     "default_title": "Anonymize Google Calendar",
     "default_icon": {
-      "16": "/images/icon_16_disabled.png",
-      "32": "/images/icon_32_disabled.png",
-      "48": "/images/icon_48_disabled.png",
-      "128": "/images/icon_128_disabled.png"
+      "16": "/images/icon_16.png",
+      "32": "/images/icon_32.png",
+      "48": "/images/icon_48.png",
+      "128": "/images/icon_128.png"
     }
   },
   "icons": {
