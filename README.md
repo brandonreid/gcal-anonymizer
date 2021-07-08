@@ -1,6 +1,6 @@
 Simple chrome plugin for anonymizing events on google calendar. That way you can take and share a screenshot and easily provide your availability to someone.
 
-![Preview of anonymizer in action](./images/anonymize.gif)
+![Preview of anonymizer in action](./images/anonymizing-ping-pong.gif)
 
 Install on Chrome: https://chrome.google.com/webstore/detail/calendar-anonymizer/ohomnpjjapfpknombeifkplihfpjdomm 
 Install on Firefox: https://addons.mozilla.org/en-US/firefox/addon/calendar-anonymizer/
