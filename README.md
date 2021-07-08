@@ -2,6 +2,9 @@ Simple chrome plugin for anonymizing events on google calendar. That way you can
 
 ![Preview of anonymizer in action](./images/anonymize.gif)
 
+Install on Chrome: https://chrome.google.com/webstore/detail/calendar-anonymizer/ohomnpjjapfpknombeifkplihfpjdomm 
+Install on Firefox: https://addons.mozilla.org/en-US/firefox/addon/calendar-anonymizer/
+
 Deploying to Chrome
 - Rename `chrome.manifest.json` to `manifest.json`.
 - Rename `chrome.background.js` to `background.js`.
